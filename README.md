@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Vet Clinic Database\] ](#-vet-clinic-database-)
+- [📖 Vet Clinic Database ](#-vet-clinic-database-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -45,11 +45,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Vet Clinic Database] <a name="about-project"></a>
+# 📖 Vet Clinic Database <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[Vet Clinic Database]** is a Relational database to create the data structure for a vet clinic
+**Vet Clinic Database** is a Relational database to create the data structure for a vet clinic
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -66,19 +64,15 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[CREATE DATABASE]**
-- **[INSERT ANIMALS]**
-- **[QUERY ANIMALS]**
+- **CREATE DATABASE**
+- **INSERT ANIMALS**
+- **QUERY ANIMALS**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
