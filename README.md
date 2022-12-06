@@ -67,6 +67,8 @@ After you're finished please remove all the comments and instructions!
 - **CREATE DATABASE**
 - **INSERT ANIMALS**
 - **QUERY ANIMALS**
+- **ALTER TABLES**
+- **TRANSACTIONS**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
