@@ -67,6 +67,8 @@ After you're finished please remove all the comments and instructions!
 - **CREATE DATABASE**
 - **INSERT ANIMALS**
 - **QUERY ANIMALS**
+- **ALTER TABLES**
+- **TRANSACTIONS**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,26 +92,26 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```
-  git clone git@github.com:Reem-lab/vet-clinic-database.git
+  git clone [git@github.com:Reem-lab/vet-clinic-database.git](https://github.com/didierganthier/vet-clinic-database.git)
   cd vet-clinic-database
 ```
 
 ### Connect to your PostgreSQL server with psql
     
 ```
-    psql
+  psql
 ```
 
 ### Create the database
 
 ```
-    CREATE DATABASE vet_clinic;
+  CREATE DATABASE vet_clinic;
 ```
 
 ### Connect to the database
 
 ```
-    \c vet_clinic
+  \c vet_clinic
 ```
 
 - Use [schema.sql](./schema.sql) to create all tables.
