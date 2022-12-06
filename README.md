@@ -102,21 +102,21 @@ Example commands:
 
 ### Connect to your PostgreSQL server with psql
     
-    ```
+```
     psql
-    ```
+```
 
 ### Create the database
 
-    ```
+```
     CREATE DATABASE vet_clinic;
-    ```
+```
 
 ### Connect to the database
 
-    ```
+```
     \c vet_clinic
-    ```
+```
 
 - Use [schema.sql](./schema.sql) to create all tables.
 - Use [data.sql](./data.sql) to populate tables with sample data.
