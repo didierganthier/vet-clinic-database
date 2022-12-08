@@ -145,11 +145,14 @@ JOIN vets ON visits.vet_id = vets.id
 JOIN specializations ON specializations.species_id = vets.id
 WHERE specializations.species_id IS NULL;
 
-SELECT COUNT(visits.animal_id), animals.name
-FROM visits
-JOIN vets ON visits.vet_id = vets.id
+-- What specialty should Maisy Smith consider getting? Look for the species she gets the most.
+SELECT species.name, COUNT(visits.animal_id) AS visit_count FROM visits
 JOIN animals ON visits.animal_id = animals.id
-WHERE vets.name = 'Maisy Smith'
-GROUP by animals.name
-ORDER by COUNT(animals.name) DESC
-LIMIT 1 ;
+JOIN vets ON visits.vet_id = vets.id
+JOIN owners ON visits.vet_id = owners.id
+JOIN specializations ON specializations.species_id = vets.id
+JOIN species ON specializations.species_id = species.id
+WHERE owners.full_name = 'Maisy Smith'
+GROUP BY species.name
+ORDER BY visit_count DESC
+LIMIT 1;
