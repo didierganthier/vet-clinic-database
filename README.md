@@ -12,6 +12,7 @@ REQUIRED SECTIONS:
   - Built With
   - Live Demo
 - Getting Started
+- Schema
 - Authors
 - Future Features
 - Contributing
@@ -37,6 +38,7 @@ After you're finished please remove all the comments and instructions!
     - [Connect to your PostgreSQL server with psql](#connect-to-your-postgresql-server-with-psql)
     - [Create the database](#create-the-database)
     - [Connect to the database](#connect-to-the-database)
+  - [📄 Schema ](#-schema-)
   - [👥 Authors ](#-authors-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -119,6 +121,10 @@ Example commands:
 - Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Schema <a name="schema"></a>
+![Screenshot 2022-12-13 at 11 28 36](https://user-images.githubusercontent.com/45739963/207389813-cc254ad7-9439-49eb-bb4c-00d3e4409453.png)
+
 
 <!-- AUTHORS -->
 
